@@ -1,0 +1,38 @@
+# Ignore all XML files
+*.xml
+
+# Ignore IntelliJ IDEA specific files/directories
+/.idea
+/out
+*.iml
+*.iws
+
+# Ignore build files
+/build/
+!**/build/libs/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other files that may be specific to your environment or project
+/vcs.xml
+misc.xml
+modules.xml
+
+# Keep source files and tests
+!**/*.java
+!**/*.kt
+!**/*.groovy
+
+# Keep other essential project files
+!**/settings.gradle
+!**/build.gradle
+!**/pom.xml
+
+# Ignore temporary files
+*.swp
+*.swo
